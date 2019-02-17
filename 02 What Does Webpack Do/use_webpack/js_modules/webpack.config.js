@@ -12,9 +12,15 @@ const config = {
             {
                 use: 'babel-loader',
                 test: /\.js$/ // <-- Regular Expression, sees if the file ends with '.js'
+            },
+
+            {
+                use: ['style-loader', 'css-loader'],
+                test: /\.css$/
             }
+
         ]
-    }
+    },
 };
 
 module.exports = config;
