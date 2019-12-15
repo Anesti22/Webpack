@@ -5,4 +5,3 @@ image.src = 'http://lorempixel.com/400/400/';
 
 document.body.appendChild(image);
 
-
